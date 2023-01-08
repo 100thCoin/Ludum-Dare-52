@@ -262,8 +262,10 @@ public class PlayerMovement : MonoBehaviour {
 				CMov.CaughtTarg = null;
 				transform.position = new Vector3 (0, 0, 0);
 				Anim.runtimeAnimatorController = Idle;
-				CaughtBy.Alerted = false;
-				CaughtBy.AlertRenderer.enabled = false;
+				if (CaughtBy != null) {
+					CaughtBy.Alerted = false;
+					CaughtBy.AlertRenderer.enabled = false;
+				}
 				CaughtFilter = 0;
 
 			}

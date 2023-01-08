@@ -1012,7 +1012,8 @@ MeshFilter:
 --- !u!1 &1438535866
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 1536504200178676, guid: fe0de4596ff3a154f916374edaabcee9,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
@@ -1028,7 +1029,8 @@ GameObject:
 --- !u!4 &1438535867
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 4275804837319476, guid: fe0de4596ff3a154f916374edaabcee9,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1438535866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -1041,7 +1043,8 @@ Transform:
 --- !u!82 &1438535868
 AudioSource:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 82208723100552204, guid: fe0de4596ff3a154f916374edaabcee9,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1438535866}
   m_Enabled: 1

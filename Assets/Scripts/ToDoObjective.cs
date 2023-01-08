@@ -265,7 +265,11 @@ public class ToDoObjective : MonoBehaviour {
 				}
 			}
 
+
 			if (ObjectiveID == 5) {
+				if (Main.Data.PromptKillTodd) {
+					Hidden = false;
+				}
 				if (Main.Data.ToddIsDead) {
 					Complete = true;
 				}
