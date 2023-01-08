@@ -134,7 +134,7 @@ b8f4c229d1972609f29efe6ea6663842 Assembly-CSharp.dll:.hackFont
 e118191fb2c9eeaba59ee951c7ca96dc Assembly-CSharp.dll:.ToDoObjective
 211160d4598ebb5d3516f25f49c6c829 Assembly-CSharp.dll:.DestroyOverTimer
 372faac82fbf3defeab124c33f7abbd5 Assembly-CSharp.dll:.NPCCOMFUSErADIUS
-2d5522db8a576764f2c713d0c2634ef6 Assembly-CSharp.dll:.VoiceQueue
+de05859738fb8e9736f616cbbbd0da8a Assembly-CSharp.dll:.VoiceQueue
 f089733a6e36913606eec2655e919b6c Assembly-CSharp.dll:.BillCrop
 a6ca21d6bb035734beaf54a70408d7a7 Assembly-CSharp.dll:.CamMover
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
