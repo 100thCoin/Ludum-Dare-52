@@ -27,7 +27,7 @@ public class VoiceLineTrigger : MonoBehaviour {
 			} else {
 				Main.Data.QueuedVoiceLine = VoicePrefab;
 			}
-
+			Destroy (gameObject);
 		}
 
 	}

@@ -11,6 +11,8 @@ public class DataHolder : MonoBehaviour {
 
 	public GameObject Playerr;
 	public PlayerMovement PMov;
+	public bool InformedOfPumpkinPlan;
+	public GameObject PumpkinPlanDialogue;
 
 	public GameObject CurrentVoiceLine;
 	public GameObject QueuedVoiceLine;
@@ -230,7 +232,7 @@ public class DataHolder : MonoBehaviour {
 				DailyObjectives5 [0] = false; // to prevent this happening every frame
 			}
 		}
-		else if (d1 == 5) {
+		else if (d1 == 6) {
 
 			ObjectiveHolders [0].SetActive(false);
 			ObjectiveHolders [1].SetActive(false);

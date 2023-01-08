@@ -14,6 +14,11 @@ public class VoiceQueue : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (Main.Data == null) {
+			Destroy (gameObject);
+		}
+
 		Timer += Time.deltaTime;
 		if (Timer > AS.clip.length) {
 			if (Main.Data.QueuedVoiceLine != null) {

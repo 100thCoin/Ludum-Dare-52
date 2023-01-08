@@ -90,7 +90,7 @@ public class FarmPlot : MonoBehaviour {
 						ChangeState ();
 					}
 				}
-
+			
 			}
 
 			if (Main.Data.InvSlotItems [Main.Data.CurrentInvSlot] == 11 && MouseInside) {
@@ -132,6 +132,21 @@ public class FarmPlot : MonoBehaviour {
 						}
 					}
 
+				}
+				if (Main.Data.InvSlotItems [Main.Data.CurrentInvSlot] == 9) {
+					MouseOver.enabled = true;
+					if (Input.GetKeyDown (KeyCode.Mouse0)) {
+						if (!Main.Data.InformedOfPumpkinPlan) {
+							Main.Data.InformedOfPumpkinPlan = true;
+
+							if (Main.Data.CurrentVoiceLine == null) {
+								Main.Data.CurrentVoiceLine = Instantiate (Main.Data.PumpkinPlanDialogue);
+							} else {
+								Main.Data.QueuedVoiceLine = Main.Data.PumpkinPlanDialogue;
+							}
+						}
+
+					}
 				}
 			}
 			if (CropState == 1) {

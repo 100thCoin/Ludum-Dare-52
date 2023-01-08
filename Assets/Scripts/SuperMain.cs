@@ -22,7 +22,7 @@ public class SuperMain : MonoBehaviour {
 	{
 
 		Destroy (Title);
-		Title = Instantiate (GameplayPrefab, new Vector3 (0, 0, 0), transform.rotation);
+		Gameplay = Instantiate (GameplayPrefab, new Vector3 (0, 0, 0), transform.rotation);
 
 	}
 

@@ -28,6 +28,11 @@ public class ItemDrop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (Main.Data == null) {
+			Destroy (gameObject);
+		}
+
 		if (!Lock) {
 			if (test) {
 				test = false;

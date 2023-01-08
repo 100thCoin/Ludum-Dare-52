@@ -130,7 +130,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		}
 
-		if (Main.Data.Day == 1 &&!doBadCropagain) {
+		if (Main.Data.Day == 2 &&!doBadCropagain) {
 			if (Cam.transform.position.y < 5) {
 				doBadCropagain = true;
 
@@ -189,6 +189,7 @@ public class PlayerMovement : MonoBehaviour {
 		Filter.SetFloat ("_Power", ParanoidScale + KillFilter + CaughtFilter);
 
 		if (WinGame) {
+			Main.Data.MusicVolume -= Time.deltaTime*0.3f;
 			winGameTimer += Time.deltaTime;
 			Main.Data.ToDoList.SetActive (false);
 
@@ -281,7 +282,7 @@ public class PlayerMovement : MonoBehaviour {
 		else if (sleepTimer >= 0) {
 			sleepTimer += Time.deltaTime;
 			Main.Data.ToDoList.SetActive (false);
-			SleepText1.text = "Day " + (Main.Data.Day+1);
+			SleepText1.text = "Day " + (Main.Data.Day+2);
 			SleepText2.text = "Rise and shine!";
 
 			if (sleepTimer > 1) {
